@@ -18,4 +18,5 @@ public class CommentRepositoryCustomImpl implements CommentRepositoryCustom {
 		return query.selectFrom(comment)
 				.fetch();
 	}
+
 }
